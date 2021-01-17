@@ -1,0 +1,19 @@
+ <div class="card shadow-sm">
+      <img class="bd-placeholder-img card-img-top" width="50%"
+        src="assets\index.jpg"/>
+
+      <div class="card-body">
+        <p class="card-text">
+          <strong>{{productItem.price|number:'1.2-2'}} RON</strong>
+        </p>
+        <p class="card-text">
+          <strong>Pizza {{productItem.name}} </strong></p>
+        <p class="card-text">{{productItem.description}}&nbsp;</p>
+        <p class="card-text"><strong>{{productItem.weight}}</strong></p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-info product-btn">Adauga</button>
+          </div>
+        </div>
+      </div>
+    </div>
